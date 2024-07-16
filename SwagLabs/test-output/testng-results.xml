@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-09T00:37:24 IST" name="FunctionalTests.SwagLabSuite" finished-at="2024-06-09T00:39:18 IST" duration-ms="113814">
+    <groups>
+    </groups>
+    <test started-at="2024-06-09T00:37:24 IST" name="SwagLabScenarios" finished-at="2024-06-09T00:39:18 IST" duration-ms="113814">
+      <class name="com.serv.tests.SwagLabScenarios">
+        <test-method signature="TestCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.serv.tests.SwagLabScenarios@548d708a]" started-at="2024-06-09T00:37:27 IST" name="TestCredentials" data-provider="excelData_tc01" finished-at="2024-06-09T00:37:45 IST" duration-ms="18359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCredentials -->
+        <test-method signature="TestCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.serv.tests.SwagLabScenarios@548d708a]" started-at="2024-06-09T00:37:45 IST" name="TestCredentials" data-provider="excelData_tc01" finished-at="2024-06-09T00:37:58 IST" duration-ms="12811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCredentials -->
+        <test-method signature="TestCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.serv.tests.SwagLabScenarios@548d708a]" started-at="2024-06-09T00:37:58 IST" name="TestCredentials" data-provider="excelData_tc01" finished-at="2024-06-09T00:38:09 IST" duration-ms="11437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCredentials -->
+        <test-method signature="TestCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.serv.tests.SwagLabScenarios@548d708a]" started-at="2024-06-09T00:38:09 IST" name="TestCredentials" data-provider="excelData_tc01" finished-at="2024-06-09T00:38:26 IST" duration-ms="17118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCredentials -->
+        <test-method signature="bookOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.serv.tests.SwagLabScenarios@548d708a]" started-at="2024-06-09T00:38:26 IST" name="bookOrder" data-provider="excelData_tc03" finished-at="2024-06-09T00:38:39 IST" duration-ms="12769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bolt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[GHJ9KK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookOrder -->
+        <test-method signature="bookOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.serv.tests.SwagLabScenarios@548d708a]" started-at="2024-06-09T00:38:39 IST" name="bookOrder" data-provider="excelData_tc03" finished-at="2024-06-09T00:38:53 IST" duration-ms="14315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fleece]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[GHJ9KK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookOrder -->
+        <test-method signature="verifyInventory(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.serv.tests.SwagLabScenarios@548d708a]" started-at="2024-06-09T00:38:54 IST" name="verifyInventory" data-provider="excelData_tc02" finished-at="2024-06-09T00:39:06 IST" duration-ms="12571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hilo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Backpack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventory -->
+        <test-method signature="verifyInventory(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.serv.tests.SwagLabScenarios@548d708a]" started-at="2024-06-09T00:39:06 IST" name="verifyInventory" data-provider="excelData_tc02" finished-at="2024-06-09T00:39:18 IST" duration-ms="11980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hilo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Light]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventory -->
+      </class> <!-- com.serv.tests.SwagLabScenarios -->
+    </test> <!-- SwagLabScenarios -->
+  </suite> <!-- FunctionalTests.SwagLabSuite -->
+</testng-results>
