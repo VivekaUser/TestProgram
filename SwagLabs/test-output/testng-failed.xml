@@ -5,7 +5,9 @@
     <classes>
       <class name="com.serv.tests.SwagLabScenarios">
         <methods>
-          <include name="TestCredentials" invocation-numbers="0 1 2 3"/>
+          <include name="bookOrder"/>
+          <include name="verifyInventory"/>
+          <include name="TestCredentials"/>
         </methods>
       </class> <!-- com.serv.tests.SwagLabScenarios -->
     </classes>

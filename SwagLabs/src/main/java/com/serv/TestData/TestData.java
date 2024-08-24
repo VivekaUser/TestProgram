@@ -16,7 +16,7 @@ public class TestData {
 	 */
 	@DataProvider(name = "excelData_tc01")
 	public Object[][] exceldataprovider_tc01() {
-		Object[][] testdata = getExcelData_tc01("C:\\Users\\viveka.s\\OneDrive - HCL TECHNOLOGIES LIMITED\\Desktop\\TrainingSDET\\AspireLearningJourney_Training\\Eclipse_Workspace\\SwagLabs\\src\\test\\resources\\SwagLabsScenarios.xlsx","LoginData");
+		Object[][] testdata = getExcelData_tc01(".\\src\\test\\resources\\SwagLabsScenarios.xlsx","LoginData");
 		return testdata;
 	}
 
@@ -62,7 +62,7 @@ public class TestData {
 	
 	@DataProvider(name = "excelData_tc02")
 	public Object[][] exceldataprovider_tc02() {
-		Object[][] testdata = getExcelData_tc02("C:\\Users\\viveka.s\\OneDrive - HCL TECHNOLOGIES LIMITED\\Desktop\\TrainingSDET\\AspireLearningJourney_Training\\Eclipse_Workspace\\SwagLabs\\src\\test\\resources\\SwagLabsScenarios.xlsx","InventoryData");
+		Object[][] testdata = getExcelData_tc02(".\\src\\test\\resources\\SwagLabsScenarios.xlsx","InventoryData");
 		return testdata;
 	}
 
@@ -109,7 +109,7 @@ public class TestData {
 
 	@DataProvider(name = "excelData_tc03")
 	public Object[][] exceldataprovider_tc03() {
-		Object[][] testdata = getExcelData_tc03("C:\\Users\\viveka.s\\OneDrive - HCL TECHNOLOGIES LIMITED\\Desktop\\TrainingSDET\\AspireLearningJourney_Training\\Eclipse_Workspace\\SwagLabs\\src\\test\\resources\\SwagLabsScenarios.xlsx","BookOrder");
+		Object[][] testdata = getExcelData_tc03(".\\src\\test\\resources\\SwagLabsScenarios.xlsx","BookOrder");
 		return testdata;
 	}
 
